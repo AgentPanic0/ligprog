@@ -1,4 +1,4 @@
-#include "configuracao.h"
+//#include "configuracao.h"
 #include "liga.h"
 
 /*
@@ -42,51 +42,51 @@ vector <vector <vector <vector <int>>>> dados
 {
     {/*America-MG*/
         {/*Gols realizados - Campeonato coluna, Ano linha*/
-            {0,20,8,15},
-            {0,14,2,3},
-            {0,0,30,0},
-            {3,0,0,5},
-            {0,0,0,10},
-            {0,0,23,0},
-            {0,0,0,0},
-            {0,0,21,0},
-            {0,0,4,0}
+            {1,20,8,15},
+            {1,14,2,3},
+            {1,1,30,0},
+            {3,1,1,5},
+            {1,1,1,10},
+            {1,1,23,1},
+            {1,1,1,1},
+            {1,1,21,1},
+            {1,1,4,1}
         },
         {/*Gols sofridos - Campeonato coluna, Ano linha*/
-            {5,0,0,4},
-            {0,12,0,0},
-            {0,0,11,0},
-            {0,4,0,4},
-            {1,0,0,1},
-            {0,4,2,0},
-            {0,0,4,0},
-            {1,0,0,0},
-            {0,0,4,0}
+            {5,1,1,4},
+            {1,12,1,1},
+            {1,1,11,1},
+            {1,4,1,4},
+            {1,1,1,1},
+            {1,4,2,1},
+            {1,1,4,1},
+            {1,1,1,1},
+            {1,1,4,1}
         }
     },
 
     {/*Athletico-PR*/
         {/*Gols realizados - Campeonato coluna, Ano linha*/
-            {4,0,0,0},
-            {0,2,0,20},
-            {0,0,0,0},
-            {0,4,14,0},
-            {0,0,0,0},
-            {0,0,1,1},
-            {0,0,1,0},
-            {10,1,0,0},
-            {10,1,0,0}
+            {4,1,1,1},
+            {1,2,1,20},
+            {1,1,1,1},
+            {0,4,14,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {10,1,1,1},
+            {10,1,1,1}
         },
         {/*Gols sofridos - Campeonato coluna, Ano linha*/
             {1,1,1,4},
-            {0,1,0,0},
-            {0,0,0,1},
-            {0,1,0,0},
-            {0,4,0,4},
-            {4,0,0,0},
-            {0,0,5,0},
-            {0,1,0,1},
-            {0,0,4,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,4,1,4},
+            {4,1,1,1},
+            {1,1,5,1},
+            {1,1,1,1},
+            {1,1,4,1}
         }
     },
 
@@ -94,74 +94,74 @@ vector <vector <vector <vector <int>>>> dados
         {/*Gols realizados - Campeonato coluna, Ano linha*/
             {1,1,1,1},
             {1,1,1,1},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         },
         {/*Gols sofridos - Campeonato coluna, Ano linha*/
             {1,1,1,1},
             {1,1,1,1},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         }
     },
 
     {/*Bahia*/
         {/*Gols realizados - Campeonato coluna, Ano linha*/
             {1,5,9,10},
-            {0,1,5,8},
-            {0,0,0,0},
-            {0,0,0,0},
+            {1,1,5,8},
+            {1,1,1,1},
+            {1,1,1,1},
             {1,5,9,10},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         },
         {/*Gols sofridos - Campeonato coluna, Ano linha*/
             {1,1,1,1},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         }
     },
 
     {/*Botafogo*/
         {/*Gols realizados - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
             {1,1,1,1},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         },
         {/*Gols sofridos - Campeonato coluna, Ano linha*/
             {2,2,2,2},
             {1,1,1,1},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         }
     },
 
@@ -169,24 +169,24 @@ vector <vector <vector <vector <int>>>> dados
         {/*Gols realizados - Campeonato coluna, Ano linha*/
             {20,20,20,20},
             {1,1,1,1},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         },
         {/*Gols sofridos - Campeonato coluna, Ano linha*/
             {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
             {10,10,10,10},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         }
     },
 
@@ -194,74 +194,74 @@ vector <vector <vector <vector <int>>>> dados
         {/*Gols realizados - Campeonato coluna, Ano linha*/
             {1,2,3,4},
             {1,2,3,4},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         },
         {/*Gols sofridos - Campeonato coluna, Ano linha*/
-            {0,0,1,1},
-            {2,2,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {2,2,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         }
     },
 
     {/*Cruzeiro*/
         {/*Gols realizados - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         },
         {/*Gols sofridos - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         }
     },
 
     {/*Cuiaba*/
         {/*Gols realizados - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         },
         {/*Gols sofridos - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         }
     },
 
@@ -270,298 +270,273 @@ vector <vector <vector <vector <int>>>> dados
             {1,1,1,1},
             {1,1,1,1},
             {1,1,1,1},
-            {1,0,0,0},
-            {1,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {30,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {30,1,1,1}
         },
         {/*Gols sofridos - Campeonato coluna, Ano linha*/
-            {1,0,0,0},
-            {1,0,0,0},
-            {1,0,0,0},
-            {1,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {25,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {20,1,1,1}
         }
     },
 
-    {/*Time*/
+    {/*Fluminense*/
         {/*Gols realizados - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         },
         {/*Gols sofridos - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         }
     },
 
-    {/*Time*/
+    {/*Fortaleza*/
         {/*Gols realizados - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         },
         {/*Gols sofridos - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         }
     },
 
-    {/*Time*/
+    {/*Goias*/
         {/*Gols realizados - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         },
         {/*Gols sofridos - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         }
     },
 
-    {/*Time*/
+    {/*Gremio*/
         {/*Gols realizados - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         },
         {/*Gols sofridos - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         }
     },
 
-    {/*Time*/
+    {/*Internacional*/
         {/*Gols realizados - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         },
         {/*Gols sofridos - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         }
     },
 
-    {/*Time*/
+    {/*Palmeiras*/
         {/*Gols realizados - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         },
         {/*Gols sofridos - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         }
     },
 
-    {/*Time*/
+    {/*Red Bull Bragantino*/
         {/*Gols realizados - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         },
         {/*Gols sofridos - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         }
     },
 
-    {/*Time*/
+    {/*Santos*/
         {/*Gols realizados - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         },
         {/*Gols sofridos - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         }
     },
 
-    {/*Time*/
+    {/*Sao Paulo*/
         {/*Gols realizados - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         },
         {/*Gols sofridos - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         }
     },
 
-    {/*Time*/
+    {/*Vasco da Gama*/
         {/*Gols realizados - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         },
         {/*Gols sofridos - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
-        }
-    },
-
-    {/*Time*/
-        {/*Gols realizados - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
-        },
-        {/*Gols sofridos - Campeonato coluna, Ano linha*/
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0},
-            {0,0,0,0}
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1},
+            {1,1,1,1}
         }
     }
 };
@@ -569,11 +544,11 @@ vector <vector <vector <vector <int>>>> dados
 int main () 
 {
     int opcao = 0;
-    int a = -1;
-    int b = -1;
-    int c = -1;
-    int d = -1;
-    int e = -1;
+    unsigned a = 0;
+    unsigned b = 0;
+    unsigned c = 0;
+    unsigned d = 0;
+    unsigned e = 0;
     vector<unsigned> buffer;
     
     Time time0(nomeTimes[AMERICA], dados[AMERICA][REALIZADOS], dados[AMERICA][SOFRIDOS]);
@@ -600,7 +575,7 @@ int main ()
     vector <Time> participantes {time0, time1, time2, time3, time4, time5, time6, time7, time8, time9, 
                                 time10, time11, time12, time13, time14, time15, time16, time17, time18, time19};
 
-    Liga liga("Super Liga", participantes);
+    Liga liga("Super Liga", participantes, anosConst, campeonatosConst);
 
     cout << endl;
     cout <<  setw(25) <<"Bem vindo! :)" << endl;
@@ -610,13 +585,15 @@ int main ()
         opcao = 0;
 
         cout << endl;
-        
+
+        //Menu Principal
         cout << setw(18) << "MENU" << endl;
         cout << "Digite o numero da opcao de deseja:" << endl;
         cout << left << setw(25) << "1.Media movel" << left << setw(25) << "2.Desempenho campeonato" << endl;
         cout << left << setw(25) << "3.Desempenho anual" << left << setw(25) << "4.Maior saldo campeonato" << endl;
         cout << left << setw(25) << "5.Maior evolucao" << left << setw(25) << "6.Sair" << endl;
         cout << endl;
+
         cout << "Digite aqui:";
         cin >> opcao;
         cout << endl;
@@ -625,51 +602,96 @@ int main ()
         {
             case 1:
 
-                a = -1;
-                b = -1;
-                c = -1;
-                d = -1;
-                e = -1;
+                a = liga.getQuantidadeParticipantes(); //inicializacao com valores invalidos
+                b = liga.getQuantidadeParticipantes();
+                c = liga.getQuantidadeParticipantes();
+                d = liga.getQuantidadeParticipantes();
+                e = liga.getQuantidadeParticipantes();
 
                 cout << "Escolha 5 times da lista abaixo" << endl;
                 liga.getParticipantes(); 
                 cout << "Digite os numeros das opcaos separado por espaco:" << endl;
                 cin >>a>>b>>c>>d>>e;
-                if(a<0 || b<0 || c<0 || d<0 || e<0) //Falta validar para char e Opcoes nao existentes
+
+                //validacao
+                if(a>liga.getQuantidadeParticipantes()-1 || b>liga.getQuantidadeParticipantes()-1  || c>liga.getQuantidadeParticipantes()-1  || d>liga.getQuantidadeParticipantes()-1  || e>liga.getQuantidadeParticipantes()-1 )
                 {
-                    cout << "\nOpcao nao disponivel!!\n" << endl;
+                    cout << "\nConjunto de opcoes invalido!!\n" << endl;
                     break;
                 }
-                //validacao
+
                 buffer.push_back(a);
                 buffer.push_back(b);
                 buffer.push_back(c);
                 buffer.push_back(d);
                 buffer.push_back(e);
 
+                a = liga.getQuantidadeAnos(); //inicializacao com valor invalido
+
                 cout << "Digite o numero da opcao correspondente ao ano inicial:" << endl;
+                liga.getAnos();
+                cout << "Digite aqui:";
                 cin >>a;
+                cout << endl;
+
                 //validacao
+                if(a>liga.getQuantidadeAnos()-1 )
+                {
+                    cout << "\nOpcao invalida!!\n" << endl;
+                    break;
+                }
+                if(a>liga.getQuantidadeAnos()-1-2 )
+                {
+                    cout << "\nOpcao invalida!!\n>>E preciso que exista mais 2 anos apos o ano escolhido.\n" << endl;
+                    break;
+                }  
+
                 liga.getMediaMovel(a, 3, buffer);
 
                 break;
 
             case 2:
-                cout << "Digite o numero referente ao campeonato que deseja:" << endl;
+                cout << "Digite o numero referente a opcao de campeonato que deseja:" << endl;
+                liga.getCampeonatos();
+                cout << endl;
+                cout << "Digite aqui:";
                 cin >>a;
+                cout << endl;
+
                 //validacao
+                if(a>liga.getQuantidadeCampeonatos()-1 )
+                {
+                    cout << "\nOpcao invalida!!\n" << endl;
+                    break;
+                }
+
                 liga.getDesempenhoCamp(a, 0);
+
                 break;
 
             case 3:
+                cout << "Desempenho dos times no ano atual em relacao ao ano anterior:\n" << endl;
                 liga.getDesempenhoTotal(0);
+
                 break;
 
              case 4:
-                cout << "Digite o numero referente ao campeonato que deseja:" << endl;
+                cout << "Digite o numero referente a opcao de campeonato que deseja:" << endl;
+                liga.getCampeonatos();
+                cout << endl;
+                cout << "Digite aqui:";
                 cin >>a;
+                cout << endl;
+
                 //validacao
+                if(a>liga.getQuantidadeCampeonatos()-1 )
+                {
+                    cout << "\nOpcao invalida!!\n" << endl;
+                    break;
+                }
+
                 liga.getMaxSaldoCamp(a);
+
                 break;
 
              case 5:
