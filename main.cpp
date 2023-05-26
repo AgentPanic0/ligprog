@@ -1,4 +1,3 @@
-//#include "configuracao.h"
 #include "liga.h"
 
 /*
